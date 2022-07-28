@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  #menu-bar {
+    display: inline-block;
+    font-size: 4rem;
+  }
+  #menu-search {
+    font-size: 3rem;
+    margin-top: 10px;
+    position: absolute;
+    left: 75%;
+    top: 25%;
+  }
+  .header .icon-header {
+    font-size: 5rem;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    width: 80%;
+    left: 10%;
+    right: 0;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5%;
+    -webkit-transition: 0.2s linear;
+    transition: 0.5s linear;
+  }
+  .navbar.active {
+    display: block;
+    background: #fff;
+    box-shadow: inset 1em 1em gold;
+  }
+  .header .navbar a {
+    display: block;
+    margin: 2rem;
+    color: #111;
+    font-size: 14px;
+  }
+  .header .search {
+    left: 3%;
+    width: 90%;
+  }
+  .banner-bg .inner-text h1 {
+    font-size: 40px;
+  }
+  .banner-bg .inner-text p {
+    width: 90%;
+    margin: 5px 5% 25px 5%;
+  }
+  .home .slide .content h3 {
+    font-size: 3rem;
+  }
+  .home .slide .content p {
+    font-size: 1.2rem;
+  }
+  .home .slide {
+    justify-content: center;
+  }
+  .inner-text {
+    width: 100% !important;
+  }
+  .main-welcome {
+    flex-direction: column;
+  }
+  .inner-welcome img {
+    margin-top: 20px;
+  }
+  .choose-us h1 {
+    font-size: 35px;
+  }
+  .choose-text {
+    padding: 2px 20px 70px 20px;
+    font-size: 12px;
+  }
+  .inner-choose p {
+    font-size: 12px;
+  }
+  /* contact */
+  .contact-wrapper {
+    flex-direction: column;
+  }
+  .form-horizontal {
+    width: 100%;
+  }
+  .send-button {
+    width: 100%;
+  }
+  .alt-send-button {
+    width: 100%;
+  }
+  .direct-contact-container {
+    width: 100%;
+    padding-top: 3rem;
+  }
+  hr {
+    width: 100%;
+  }
+  .contact-list {
+    margin-left: -10%;
+  }
+  .place,
+  .phone,
+  .gmail {
+    margin-left: 2rem;
+  }
+  .social-media-list li {
+    margin: 0;
+    background-color: transparent;
+  }
+}
