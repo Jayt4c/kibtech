@@ -26,6 +26,10 @@ a {
 ::placeholder {
   color: #fff;
 }
+input,
+textarea {
+  border-color: transparent;
+}
 
 /* Header */
 .header {
@@ -688,7 +692,6 @@ a {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
   background-color: #fff;
   border-bottom: 3px solid #fff;
   border-radius: 15px;
