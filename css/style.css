@@ -23,6 +23,9 @@ body {
 a {
   text-decoration: none;
 }
+::placeholder {
+  color: #fff;
+}
 
 /* Header */
 .header {
@@ -35,7 +38,7 @@ a {
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  background: #222533;
+  background: #161d41;
 }
 .header .logo {
   height: 50px;
@@ -57,7 +60,7 @@ a {
   width: 8rem;
   line-height: 5rem;
   font-size: 2rem;
-  background: #222533;
+  background: #161d41;
   color: #fff;
   cursor: pointer;
   text-align: center;
@@ -85,7 +88,7 @@ a {
   padding: 0.5rem 0.6rem;
   border-radius: 10px;
   background: #fff;
-  border: 2px solid #222533;
+  border: 2px solid #161d41;
   font-size: 1.6rem;
   color: #666;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -142,7 +145,7 @@ a {
 }
 .home .slide .content h3 {
   font-size: 6rem;
-  color: #222533;
+  color: #161d41;
   text-transform: capitalize;
   text-transform: uppercase;
 }
@@ -162,7 +165,7 @@ a {
   height: 7rem;
   width: 7rem;
   line-height: 7rem;
-  background: #222533;
+  background: #161d41;
 }
 .home .swiper-button-next:hover,
 .home .swiper-button-prev:hover {
@@ -317,7 +320,7 @@ a {
 .first-btn:hover,
 .second-btn:hover {
   padding: 1.7rem 4.5rem;
-  background: #222533;
+  background: #161d41;
   color: #fff;
   font-size: 1.5rem;
   letter-spacing: 3px;
@@ -337,31 +340,35 @@ a {
 .welcome-text h1 {
   font-size: 40px;
   color: #fe982f;
+  font-weight: 900;
+}
+.welcome-text h1 span {
+  color: #161d41;
 }
 .welcome-text p {
   font-size: 15px;
   padding: 1rem 0;
-  color: #222533;
+  color: #161d41;
   margin-top: -2rem;
   margin-bottom: 25px;
 }
 .welcome-text a {
   padding: 15px 30px;
-  background: #fe982f;
+  background: #161d41;
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
 }
 .welcome-text a:hover {
-  background: #ffd900e6;
-  color: #222533;
+  background: #fe982f;
+  color: #161d41;
 }
 /* .inner-welcome img {
   width: 100%;
 } */
 .choose-us {
   padding: 3rem 7%;
-  background: #040612;
+  background: #161d41;
   color: #fff;
 }
 .choose-us h1 {
@@ -429,7 +436,7 @@ a {
   padding: 10px 0;
 }
 .our-services h1 span {
-  color: #040612;
+  color: #161d41;
 }
 .our-services .main-services {
   display: -ms-grid;
@@ -457,7 +464,7 @@ a {
 }
 .our-services .main-services .inner-service h3 {
   font-size: 1.7rem;
-  color: #040612;
+  color: #161d41;
   text-transform: capitalize;
   padding: 1rem 0;
 }
@@ -470,7 +477,7 @@ a {
 /* Gallery Start */
 .our-gallery {
   padding: 40px 5%;
-  background: #040612;
+  background: #161d41;
 }
 .our-gallery h1 {
   color: #fff;
@@ -504,7 +511,7 @@ a {
   padding: 40px 5%;
 }
 .customer-review h1 {
-  color: #040612;
+  color: #161d41;
   font-size: 40px;
   text-align: center;
   margin-bottom: 20px;
@@ -535,7 +542,7 @@ a {
 .inner-review p {
   font-size: 15px;
   padding: 10px 20px;
-  color: #040612;
+  color: #161d41;
 }
 .inner-review img {
   width: 50px;
@@ -545,7 +552,7 @@ a {
   font-size: 30px;
   left: 10px;
   top: 10px;
-  color: #f5bf23;
+  color: #fe982f;
 }
 /* about start */
 .about {
@@ -554,7 +561,7 @@ a {
 .heading {
   margin-bottom: 3rem;
   font-size: 3rem;
-  color: #040612;
+  color: #161d41;
   text-transform: capitalize;
   padding-left: 1rem;
   border-left: 1rem solid #fe982f;
@@ -572,7 +579,7 @@ a {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
-  background: #040612;
+  background: #161d41;
   color: #fff;
   cursor: pointer;
   font-size: 1.7rem;
@@ -595,13 +602,13 @@ a {
 }
 .about .row .content h3 {
   font-size: 3.5rem;
-  color: #040612;
+  color: #161d41;
   text-transform: capitalize;
 }
 .about .row .content p {
-  font-size: 1.5rem;
-  color: var(--light-color);
+  font-size: 1.8rem;
   line-height: 2;
+  color: black;
   padding: 1rem 0;
 }
 .about .box-container {
@@ -639,14 +646,15 @@ a {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #040612;
+  background-color: #161d41;
   padding-bottom: 100px;
 }
 
 .section-header {
   text-align: center;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 40px 0 10px 0;
+  font-weight: bolder;
   font: 300 30px "Oswald", sans-serif;
   color: #fff;
   text-transform: uppercase;
@@ -701,10 +709,10 @@ textarea {
 }
 .send-button {
   margin-top: 15px;
-  height: 34px;
+  height: 44px;
   width: 400px;
   overflow: hidden;
-  margin-left: 1%;
+  margin-left: 2%;
   text-align: center;
   color: #fff;
   background-color: #fe982f;
@@ -720,7 +728,7 @@ textarea {
 .send-text {
   display: block;
   margin-top: 10px;
-  font: 700 12px "Lato", sans-serif;
+  font: 700 15px "Lato", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -834,6 +842,7 @@ textarea {
   font: 200 14px "Oswald", sans-serif;
   color: #fff;
   letter-spacing: 1px;
+  text-transform: uppercase;
   text-align: center;
   padding-top: 2px;
 }

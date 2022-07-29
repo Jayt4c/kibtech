@@ -2,12 +2,16 @@
   html {
     font-size: 55%;
   }
+  .header .logo {
+    width: 80px;
+    height: 40px;
+  }
   #menu-bar {
     display: inline-block;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   #menu-search {
-    font-size: 3rem;
+    font-size: 2.7rem;
     margin-top: 10px;
     position: absolute;
     left: 75%;
@@ -31,7 +35,10 @@
   .navbar.active {
     display: block;
     background: #fff;
-    box-shadow: inset 1em 1em gold;
+    box-shadow: inset 1em 1em #fe982f;
+  }
+  .welcome-text h1 {
+    font-size: 30px;
   }
   .header .navbar a {
     display: block;
@@ -70,23 +77,37 @@
   }
   .choose-us h1 {
     font-size: 35px;
+    padding: 20px 10px 0px 10px;
+    margin-bottom: 0px;
+  }
+  .inner-choose h2 {
+    padding: 0px 0;
+    margin: 1rem 0 0 0;
+  }
+  .inner-choose {
+    padding-bottom: 2rem;
   }
   .choose-text {
-    padding: 2px 20px 70px 20px;
+    padding: 0 20px 50px 20px;
     font-size: 12px;
   }
   .inner-choose p {
     font-size: 12px;
   }
+  .about .row .content p {
+    margin-top: -10%;
+  }
   /* contact */
   .contact-wrapper {
     flex-direction: column;
+    margin-left: 6%;
   }
   .form-horizontal {
     width: 100%;
   }
   .send-button {
     width: 100%;
+    margin-left: 4%;
   }
   .alt-send-button {
     width: 100%;
@@ -94,6 +115,7 @@
   .direct-contact-container {
     width: 100%;
     padding-top: 3rem;
+    margin-left: 4%;
   }
   hr {
     width: 100%;
