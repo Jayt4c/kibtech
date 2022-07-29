@@ -35,7 +35,7 @@
   .navbar.active {
     display: block;
     background: #fff;
-    box-shadow: inset 1em 1em #fe982f;
+    box-shadow: 1em 1em #fe982f;
   }
   .welcome-text h1 {
     font-size: 30px;
@@ -97,6 +97,9 @@
   .about .row .content p {
     margin-top: -10%;
   }
+  .about .row {
+    gap: 0rem;
+  }
   /* contact */
   .contact-wrapper {
     flex-direction: column;
@@ -127,6 +130,13 @@
   .phone,
   .gmail {
     margin-left: 2rem;
+    font-size: 1.6rem;
+  }
+  .gmail {
+    text-transform: lowercase;
+  }
+  .social-media-list {
+    font-size: 16px;
   }
   .social-media-list li {
     margin: 0;
@@ -134,7 +144,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   html {
     font-size: 55%;
   }
@@ -180,7 +190,25 @@
     width: 80%;
   }
 }
-@media (min-width: 1000px) and (max-width: 1280px) {
+@media (min-width: 700px) and (max-width: 768px) {
+  .contact-wrapper {
+    margin-left: 18%;
+  }
+  .send-button {
+    width: 80%;
+    margin-left: 0%;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px) {
+  .send-button {
+    width: 80%;
+    margin-left: 7%;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .about .row .content p {
+    margin-top: -7%;
+  }
 }
 @media (min-width: 1280px) {
   .form-horizontal {

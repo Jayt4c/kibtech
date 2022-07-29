@@ -145,12 +145,12 @@ textarea {
 .home .slide .content {
   width: 50rem;
   position: relative;
+  text-align: center;
   padding: 5rem 10%;
 }
 .home .slide .content h3 {
   font-size: 6rem;
   color: #161d41;
-  text-transform: capitalize;
   text-transform: uppercase;
 }
 .home .slide .content p {
@@ -563,12 +563,17 @@ textarea {
   padding: 5rem 10%;
 }
 .heading {
-  margin-bottom: 3rem;
-  font-size: 3rem;
   color: #161d41;
-  text-transform: capitalize;
-  padding-left: 1rem;
-  border-left: 1rem solid #fe982f;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 0 40px 0;
+  font-weight: bolder;
+  font: 600 30px "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.heading span {
+  color: #fe982f;
 }
 .about .row {
   display: flex;
@@ -583,7 +588,7 @@ textarea {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
-  background: #161d41;
+  background: #fe982f;
   color: #fff;
   cursor: pointer;
   font-size: 1.7rem;
@@ -606,13 +611,15 @@ textarea {
 }
 .about .row .content h3 {
   font-size: 3.5rem;
-  color: #161d41;
+  color: #fe982f;
   text-transform: capitalize;
 }
 .about .row .content p {
   font-size: 1.8rem;
   line-height: 2;
-  color: black;
+  color: #161d41;
+  font-weight: 300;
+  text-transform: initial;
   padding: 1rem 0;
 }
 .about .box-container {
@@ -633,7 +640,7 @@ textarea {
 }
 .about .box-container .box h3 {
   font-size: 4rem;
-  color: var(--black);
+  color: #161d41;
   text-transform: capitalize;
 }
 .about .box-container .box p {
@@ -775,6 +782,7 @@ textarea {
 
 .gmail {
   margin-left: 53px;
+  text-transform: lowercase;
 }
 
 .contact-text a {
