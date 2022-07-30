@@ -243,6 +243,7 @@
   .footer-row {
     flex-wrap: wrap;
     margin-right: 0;
+    text-align: center;
     margin-left: 0px;
   }
   .footer-col {
