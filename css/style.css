@@ -40,7 +40,6 @@ textarea {
   top: 0;
   left: 0;
   right: 0;
-  padding: 0.5rem 1%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,8 +47,8 @@ textarea {
   background: #161d41;
 }
 .header .logo {
-  height: 50px;
-  width: 100px;
+  width: 120px;
+  height: 60px;
   padding: 10px;
 }
 .header .navbar a {
@@ -63,7 +62,6 @@ textarea {
   color: #f5bf23;
 }
 .header .icon-header {
-  height: 5rem;
   width: 8rem;
   line-height: 5rem;
   font-size: 2rem;
