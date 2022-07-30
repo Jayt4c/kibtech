@@ -19,6 +19,9 @@ body {
   border: none;
   text-decoration: none;
   text-transform: capitalize;
+  animation: fadeIn ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 a {
   text-decoration: none;
@@ -46,7 +49,8 @@ textarea {
   opacity: 0;
   animation: fadeIn ease-in 1;
   animation-fill-mode: forwards;
-  animation-duration: 3.8s;
+  animation-duration: 2s;
+  animation-delay: 3s;
 }
 
 .fade-in.delayed {
