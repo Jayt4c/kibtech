@@ -41,6 +41,8 @@ var swiper = new Swiper(".reviews-slider", {
 
 // preloader
 var loader = document.querySelector("#preloader");
-window.addEventListener("load", function () {
-  loader.style.display = "none";
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 3500);
 });
