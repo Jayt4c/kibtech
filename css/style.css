@@ -925,8 +925,6 @@ section {
   padding: 0;
   list-style: none;
 }
-.single_footer ul li {
-}
 .single_footer ul li a {
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
@@ -937,11 +935,6 @@ section {
 }
 .single_footer ul li a:hover {
   color: #fe982f;
-}
-
-.single_footer_address {
-}
-.single_footer_address ul {
 }
 .single_footer_address ul li {
   color: #fff;
@@ -1061,7 +1054,7 @@ button {
 }
 .social_profile ul li a:hover {
   background: #fe982f;
-  border: 1px solid #fff
+  border: 1px solid #fff;
   color: #fff;
   border: 0px;
 }
@@ -1075,9 +1068,9 @@ button {
   text-align: center;
 }
 .copyright a {
-  color: #01c7e9;
+  color: #fe982f;
   transition: all 0.2s ease 0s;
 }
 .copyright a:hover {
-  color: #ff3666;
+  color: #fff;
 }
