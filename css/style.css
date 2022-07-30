@@ -146,7 +146,7 @@ textarea {
   background: linear-gradient(90deg, white, transparent);
 }
 .home .slide .content {
-  width: 50rem;
+  width: 100%;
   position: relative;
   text-align: center;
   padding: 5rem 10%;
@@ -157,10 +157,11 @@ textarea {
   text-transform: uppercase;
 }
 .home .slide .content p {
-  font-size: 1.4rem;
-  color: #fff;
+  font-size: 1.8rem;
+  width: 80%;
+  color: #000;
+  margin-left: 10%;
   line-height: 2;
-  padding: 1rem 0;
 }
 .home .swiper-button-next,
 .home .swiper-button-prev {
@@ -361,7 +362,7 @@ textarea {
 }
 .welcome-text a {
   padding: 15px 30px;
-  background: #161d41;
+  background: #fe982f;
   color: #fff;
   font-size: 15px;
   border-radius: 10px;
@@ -671,7 +672,7 @@ textarea {
 }
 .about .row .content h3 {
   font-size: 3.5rem;
-  color: #fe982f;
+  color: #161d41;
   text-transform: capitalize;
 }
 .about .row .content p {
@@ -695,7 +696,7 @@ textarea {
 }
 .about .box-container .box {
   text-align: center;
-  background: var(--light-bg);
+  background: aliceblue;
   padding: 3rem 2rem;
 }
 .about .box-container .box h3 {
@@ -879,7 +880,8 @@ textarea {
   line-height: 60px;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(27, 27, 27);
+  background-color: #161d41;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }

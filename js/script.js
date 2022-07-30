@@ -21,6 +21,23 @@ var swiper = new Swiper(".home-slider", {
     prevEl: ".swiper-button-prev",
   },
 });
+// review slider
+var swiper = new Swiper(".reviews-slider", {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 20,
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
+  },
+});
 
 // contact
 document.querySelector("#contact-form").addEventListener("submit", (e) => {
