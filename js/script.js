@@ -39,10 +39,8 @@ var swiper = new Swiper(".reviews-slider", {
   },
 });
 
-// contact
-document.querySelector("#contact-form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  e.target.elements.name.value = "";
-  e.target.elements.email.value = "";
-  e.target.elements.message.value = "";
+// preloader
+var loader = document.querySelector("#preloader");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
 });
