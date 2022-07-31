@@ -673,6 +673,7 @@ textarea {
   background: #fe982f;
   color: #fff;
   cursor: pointer;
+  border-radius: 10px;
   font-size: 1.7rem;
   text-transform: capitalize;
   -webkit-transition: 0.2s linear;
