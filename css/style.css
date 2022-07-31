@@ -806,6 +806,7 @@ textarea {
   width: 100%;
   overflow: hidden;
   margin-left: 2%;
+  border-radius: 10px;
   text-align: center;
   color: #fff;
   background-color: #fe982f;
