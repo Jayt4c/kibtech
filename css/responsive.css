@@ -40,7 +40,7 @@
   }
   .welcome-text h1 {
     font-size: 30px;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .header .navbar a {
     display: block;
@@ -183,6 +183,9 @@
   }
   .send-button {
     margin-top: 20px;
+  }
+  .social_profile {
+    margin-left: 5%;
   }
 }
 
@@ -342,6 +345,6 @@
 }
 @media (max-width: 380px) {
   .choose-us h1 {
-    font-size: 3rem;
+    font-size: 3.6rem;
   }
 }

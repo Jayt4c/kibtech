@@ -33,9 +33,6 @@ input,
 textarea {
   border-color: transparent;
 }
-.page-container {
-  animation-delay: 4s;
-}
 @keyframes fadeIn {
   from {
     opacity: 0;
