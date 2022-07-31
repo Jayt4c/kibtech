@@ -170,10 +170,14 @@ textarea {
   padding: 5rem 10%;
 }
 .home .slide .content h3 {
-  font-size: 6rem;
+  font-size: 2.5rem;
   color: #161d41;
   margin-bottom: 0;
   text-transform: uppercase;
+}
+.home .slide .content h3 span {
+  font-size: 4rem;
+  color: currentcolor;
 }
 .home .slide .content p {
   font-size: 1.8rem;
