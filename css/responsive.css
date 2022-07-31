@@ -40,6 +40,7 @@
   }
   .welcome-text h1 {
     font-size: 30px;
+    font-size: 3rem;
   }
   .header .navbar a {
     display: block;
@@ -73,6 +74,9 @@
   .main-welcome {
     flex-direction: column;
   }
+  .welcome-text a {
+    padding: 8px 12px;
+  }
   .inner-welcome img {
     margin-top: 20px;
   }
@@ -80,6 +84,11 @@
     font-size: 35px;
     padding: 20px 10px 0px 10px;
     margin-bottom: 0px;
+  }
+  .choose-icon {
+    width: 70px;
+    height: 70px;
+    line-height: 80px;
   }
   .inner-choose h2 {
     padding: 0px 0;
@@ -98,13 +107,35 @@
   .about .row .content p {
     margin-top: -10%;
   }
+  .about .row .content h3 {
+    font-size: 2.8rem;
+  }
+  .about .row .content p {
+    font-size: 1.5rem;
+  }
   .about .row {
     gap: 0rem;
+  }
+  .about-btn {
+    padding: 8px 12px;
+  }
+  .our-gallery h1 {
+    font-size: 3.5rem;
+  }
+  .projects .box-container {
+    padding-top: 2.5rem;
+  }
+  .customer-review h1 {
+    font-size: 3.5rem;
   }
   /* contact */
   .contact-wrapper {
     flex-direction: column;
     /* margin-left: 6%; */
+  }
+  .contact-wrapper {
+    padding: 0px;
+    max-width: 80%;
   }
   .form-horizontal {
     width: 100%;
@@ -133,7 +164,7 @@
   .phone,
   .gmail {
     margin-left: 2rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #fff;
     margin-left: 20px;
   }
@@ -149,6 +180,9 @@
   }
   .contact-list {
     margin-left: -10%;
+  }
+  .send-button {
+    margin-top: 20px;
   }
 }
 
@@ -226,7 +260,7 @@
 }
 @media (max-width: 768px) {
   .social-media-list {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 @media (min-width: 1280px) {
@@ -255,10 +289,10 @@
     max-width: 50%;
   }
   .single_footer h4 {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
   .single_footer ul li a {
-    font-size: 10px;
+    font-size: 1.5rem;
   }
   .form-reg {
     text-align: center;
@@ -271,7 +305,7 @@
     margin-left: 0%;
   }
   .subscribe__input {
-    font-size: 10px;
+    font-size: 13px;
     height: 40px;
   }
   .subscribe__btn {
@@ -304,5 +338,10 @@
 @media (min-width: 1200px) {
   .footer-container {
     max-width: 1140px;
+  }
+}
+@media (max-width: 380px) {
+  .choose-us h1 {
+    font-size: 3rem;
   }
 }

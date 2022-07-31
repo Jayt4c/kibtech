@@ -19,9 +19,6 @@ body {
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  animation: fadeIn ease 4s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 a {
   text-decoration: none;
@@ -35,6 +32,9 @@ a {
 input,
 textarea {
   border-color: transparent;
+}
+.page-container {
+  animation-delay: 4s;
 }
 @keyframes fadeIn {
   from {
@@ -493,7 +493,7 @@ textarea {
   transition: 0.2s linear;
 }
 .our-services .main-services .inner-service h3 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #161d41;
   text-transform: capitalize;
   padding: 1rem 0;
@@ -516,7 +516,6 @@ textarea {
   margin-bottom: 20px;
 }
 .our-gallery h1 span {
-  font-size: 40px;
   color: #fe982f;
 }
 .projects .box-container {
@@ -630,6 +629,9 @@ textarea {
   font-size: 15px;
   padding: 10px 20px;
   color: #161d41;
+}
+.inner-review:hover p {
+  color: #fff;
 }
 .inner-review img {
   width: 50px;
