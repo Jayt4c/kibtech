@@ -17,7 +17,7 @@ var swiper = new Swiper(".home-slider", {
   spaceBetween: 30,
   centeredSlides: true,
   autoplay: {
-    delay: 9000,
+    delay: 8000,
     disableOnInteraction: false,
   },
   loop: true,
