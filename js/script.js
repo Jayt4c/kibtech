@@ -14,31 +14,27 @@ searchBar.onclick = () => {
 
 //slide
 var swiper = new Swiper(".home-slider", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 8000,
+    disableOnInteraction: false,
+  },
   loop: true,
   grabCursor: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-});
-// review slider
-var swiper = new Swiper(".reviews-slider", {
-  loop: true,
+  effect: "cube",
   grabCursor: true,
-  spaceBetween: 20,
-  breakpoints: {
-    640: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    991: {
-      slidesPerView: 3,
-    },
+  cubeEffect: {
+    shadow: true,
+    slideShadows: true,
+    shadowOffset: 20,
+    shadowScale: 0.94,
   },
 });
-
 // preloader
 var loader = document.querySelector("#preloader");
 window.addEventListener("load", () => {
