@@ -17,7 +17,7 @@ var swiper = new Swiper(".home-slider", {
   spaceBetween: 30,
   centeredSlides: true,
   autoplay: {
-    delay: 8000,
+    delay: 9000,
     disableOnInteraction: false,
   },
   loop: true,
@@ -25,14 +25,6 @@ var swiper = new Swiper(".home-slider", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  },
-  effect: "cube",
-  grabCursor: true,
-  cubeEffect: {
-    shadow: true,
-    slideShadows: true,
-    shadowOffset: 20,
-    shadowScale: 0.94,
   },
 });
 // preloader
